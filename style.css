@@ -1,0 +1,51 @@
+:root{
+    --text: rgb(255, 255, 255);
+    --background: #1b1a20;
+    --primary: #0ea300;
+    --secondary: #f587c7;
+    --accent: #10c400;
+}
+
+body {
+    background-color: var(--background);
+}
+.header{
+    height:20vh
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: var(--text);
+    font-size: 3rem;
+}
+label{
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+.task-container{
+    background-color: var(--primary);
+    margin-top: 40px;
+}
+.row{
+    height:60px;
+    background-color: var(--primary);
+}
+.btn{
+
+    background-color: var(--primary);
+}
+.btn:hover{
+    background-color: var(--accent);
+}
+
+
+.form-check-input{
+    width: 20px;
+    height: 20px;
+}
+#check1:checked{
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary);
+}
