@@ -20,6 +20,10 @@ h1{
     color: var(--text);
     font-size: 3rem;
 }
+h5{
+
+    margin: 0px;
+}
 label{
     font-size: 1.25rem;
     color: var(--primary);
@@ -48,4 +52,14 @@ label{
 .check:checked{
     background-color: var(--secondary) !important;
     border-color: var(--secondary);
+}
+
+@media (max-width: 381px)
+{
+    h1 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 0.8rem;
+    }
 }
