@@ -43,6 +43,10 @@ label{
 .btn:hover{
     background-color: var(--accent);
 }
+a {
+    color:var(--secondary);
+    text-decoration: none;
+}
 .task{
     transition: all .2s linear;
 }
@@ -56,6 +60,10 @@ label{
 .check:checked{
     background-color: var(--secondary) !important;
     border-color: var(--secondary);
+}
+
+footer p {
+    color: var(--secondary)
 }
 
 @media (max-width: 381px)
