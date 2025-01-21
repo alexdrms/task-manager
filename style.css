@@ -43,8 +43,12 @@ label{
 .btn:hover{
     background-color: var(--accent);
 }
-
-
+.task{
+    transition: all .2s linear;
+}
+.task:hover{
+    transform: scale(1.05);
+}
 .form-check-input{
     width: 20px;
     height: 20px;
@@ -57,9 +61,16 @@ label{
 @media (max-width: 381px)
 {
     h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     h5 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 410px)
+{
+    .btn-task{
+        padding: 0px;
     }
 }
